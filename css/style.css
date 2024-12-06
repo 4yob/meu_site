@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: black;
+    background: radial-gradient(circle, #111111, #000000);
 }
 
 header{
@@ -69,7 +69,7 @@ header{
 }
 
 main {
-    padding: 5rem;
+    padding: 20rem 5rem;
 }
 
 .intro-gif {
@@ -83,6 +83,7 @@ main {
 .intro {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: start;
     color: white;
     gap: 4rem;
@@ -96,6 +97,11 @@ main {
 .intro span {
     font-family: "Bungee Tint", sans-serif;
     font-size: 4rem;
+}
+
+.intro img {
+    width: 3.5rem;
+    height: 3.2rem;
 }
 
 .intro p {
