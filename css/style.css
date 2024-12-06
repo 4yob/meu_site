@@ -59,6 +59,13 @@ header{
 .links a {
     text-decoration: none;
     color: white;
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.links a:hover {
+    transform: scale(1.1);
+    color: #df0030;
 }
 
 main {
