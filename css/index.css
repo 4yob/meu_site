@@ -74,6 +74,10 @@ header{
     color: #df0030;
 }
 
+main {
+    padding: 0 0 10rem 0;
+}
+
 .intro-img {
     background: linear-gradient(to right, #ff7e5f, #feb47b);
     display: flex;
