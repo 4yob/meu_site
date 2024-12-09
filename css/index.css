@@ -276,6 +276,51 @@ button .two {
     height: auto;
 }
 
+.playlist {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    width: 30rem;
+    height: 40rem;
+    border-radius: 50px;
+    gap: 4rem;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding: 2rem;
+    transition: transform 0.3s ease;
+}
+
+.playlist:hover {
+    transform: scale(1.1);
+}
+
+.playlist-img {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.playlist-text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+}
+
+.playlist-text h3 {
+    text-align: start;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.playlist-text p {
+    text-align: start;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+
 footer {
     display: flex;
     flex-direction: column;
