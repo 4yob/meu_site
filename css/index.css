@@ -170,7 +170,7 @@ main {
     transform: scale(1.1);
 }
 
-form {
+.search-bar {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -196,7 +196,7 @@ input:hover {
     border: 3px solid black;
 }
 
-button {
+.search-bar button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -213,12 +213,11 @@ button {
     height: 1.5rem;
 }
 
-button:hover {
+.search-bar button:hover, .button-discover button:hover {
     background-color: #df0030;
 }
 
 .one {
-    flex-wrap: wrap;
     gap: 5rem;
 }
 
@@ -234,6 +233,7 @@ button:hover {
     width: 18rem;
     height: auto;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .artist h3 {
@@ -241,6 +241,39 @@ button:hover {
     font-family: "Montserrat", sans-serif;
     font-weight: 800;
     color: black;
+}
+
+.artist h3:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.button-discover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-discover button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding: 1rem 4rem;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    gap: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+button .two {
+    width: 2.8rem;
+    height: auto;
 }
 
 footer {
