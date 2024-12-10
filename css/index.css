@@ -320,6 +320,10 @@ button .two {
     font-weight: 400;
 }
 
+.playlist-text h3:hover, .playlist-text p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
 
 footer {
     display: flex;
