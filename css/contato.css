@@ -1,0 +1,15 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15rem 5rem 10rem 5rem;
+}
+
+.block {
+    background-color: black;
+    border-radius: 30px;
+    width: 80rem;
+    height: 50rem;
+    display: flex;
+    flex-direction: row;
+}
