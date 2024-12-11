@@ -325,6 +325,52 @@ button .two {
     text-decoration: underline;
 }
 
+.outro-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+}
+
+.outro-img .outro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4rem;
+    width: 50%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.outro p {
+    text-align: justify;
+    text-align-last: center;
+    font-size: 1.3rem;
+    font-weight: 650;
+}
+
+.outro h2 {
+    font-family: 'bungee tint', sans-serif;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.outro-img img {
+    width: 35rem;
+    height: auto;
+    animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
 footer {
     display: flex;
     flex-direction: column;
